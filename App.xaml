@@ -1,0 +1,9 @@
+﻿<Application x:Class="ukol.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ukol"
+             StartupUri="Čtverec.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

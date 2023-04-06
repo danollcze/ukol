@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <StartupObject>ukol.App</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ctverec.png" />
+    <None Remove="ikona.png" />
+    <None Remove="kruh.png" />
+    <None Remove="lichobeznik.png" />
+    <None Remove="obdelnik.png" />
+    <None Remove="trojuhelnik.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="KnihovnaPuntik" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ctverec.png" />
+    <Resource Include="ikona.png" />
+    <Resource Include="kruh.png" />
+    <Resource Include="lichobeznik.png" />
+    <Resource Include="obdelnik.png" />
+    <Resource Include="trojuhelnik.png" />
+  </ItemGroup>
+
+</Project>

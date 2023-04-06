@@ -1,0 +1,31 @@
+﻿<Window x:Class="ukol.Lichoběžník"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ukol"
+        mc:Ignorable="d"
+        Title="Vypočet obsahu" Height="450" Width="800" SizeToContent="WidthAndHeight">
+    <Grid Background="#FFE0DCDC" Width="800" Margin="0,0,0,-6" Height="450">
+        <TextBlock HorizontalAlignment="Left" Height="37" Margin="41,44,0,0" TextWrapping="Wrap" Text="Geometrický tvar:" VerticalAlignment="Top" Width="206" FontSize="24" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="163" Margin="41,81,0,0" VerticalAlignment="Top" Width="699" Source="/lichobeznik.png"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="41,244,0,0" TextWrapping="Wrap" Text="Parametry výpočtu" VerticalAlignment="Top" Width="171" FontWeight="Bold" TextDecorations="Underline"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="100,274,0,0" TextWrapping="Wrap" Text="a" VerticalAlignment="Top" Width="21" FontWeight="Bold"/>
+        <TextBox x:Name="stranaA" HorizontalAlignment="Left" Height="20" Margin="126,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"/>
+        <Label Content="Výsledek" HorizontalAlignment="Left" Height="29" Margin="479,393,0,0" VerticalAlignment="Top" Width="80" IsEnabled="False" FontWeight="Bold" FontSize="16" Background="#FFE0DCDC" Foreground="#FF0A0A0A"/>
+        <TextBlock x:Name="vysledek" HorizontalAlignment="Left" Height="20" Margin="564,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" Background="#FFF7F3F3" IsEnabled="False"/>
+        <Button Content="Vypočítat" Click="Button_Click" HorizontalAlignment="Left" Height="20" Margin="701,398,0,0" VerticalAlignment="Top" Width="79"/>
+        <ComboBox x:Name="ComboBox" HorizontalAlignment="Left" Height="25" Margin="252,50,0,0" VerticalAlignment="Top" Width="223" SelectedIndex="2">
+            <ComboBoxItem Content="Čtverec"/>
+            <ComboBoxItem Content="Kruh"/>
+            <ComboBoxItem Content="Lichoběžník"/>
+            <ComboBoxItem Content="Obdélník"/>
+            <ComboBoxItem Content="Trojúhelník"/>
+        </ComboBox>
+        <Button Content="Vybrat" Click="menu"  HorizontalAlignment="Left" Height="25" Margin="494,50,0,0" VerticalAlignment="Top" Width="110" FontWeight="Bold"/>
+        <TextBox x:Name="stranaC" HorizontalAlignment="Left" Height="20" Margin="126,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="100,313,0,0" TextWrapping="Wrap" Text="c" VerticalAlignment="Top" Width="21" FontWeight="Bold"/>
+        <TextBox x:Name="stranaV" HorizontalAlignment="Left" Height="20" Margin="126,347,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="100,347,0,0" TextWrapping="Wrap" Text="v" VerticalAlignment="Top" Width="21" FontWeight="Bold" RenderTransformOrigin="0.39,2.917"/>
+    </Grid>
+</Window>

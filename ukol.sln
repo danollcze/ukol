@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ukol", "ukol.csproj", "{94E666A7-979E-4129-B6A3-9714B87FE148}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94E666A7-979E-4129-B6A3-9714B87FE148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E666A7-979E-4129-B6A3-9714B87FE148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E666A7-979E-4129-B6A3-9714B87FE148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E666A7-979E-4129-B6A3-9714B87FE148}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {820B867C-8940-4E46-8B37-505D2F00257C}
+	EndGlobalSection
+EndGlobal
